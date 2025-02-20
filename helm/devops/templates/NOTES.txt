@@ -1,4 +1,4 @@
 # Port forward
 servicename=$(kubectl get service -l "app={{.Values.appName}}" -o jsonpath="{.items[0].metadata.name}")
 
-kubectl port-forward service/{{.Values.appName}} 8888:80 --namespace {{.Values.namespace}}
+kubectl port-forward service/{{.Values.appName}} 8888:3000 --namespace {{.Values.namespace}}
