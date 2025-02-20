@@ -16,10 +16,10 @@ kubectl create namespace dev
 `helm install devops-release-dev devops/ --values devops/values.yaml -f  devops/values-dev.yaml -n dev`
 
 ## Expose external
-kubectl port-forward service/devops 8888:3000 --namespace dev
+`kubectl port-forward service/devops 8888:3000 --namespace dev`
 
 ## Access on browser
-localhost:8888
+`localhost:8888`
 
 ## Delete resources
 `helm delete devops-release-dev -n dev`
