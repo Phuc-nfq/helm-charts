@@ -24,5 +24,4 @@ kubectl create namespace dev
 ## Delete resources
 `helm delete devops-release-dev -n dev`
 
-## Upgrade after templating
-`helm upgrade devops-release devops/ --values devops/values.yaml` 
+
