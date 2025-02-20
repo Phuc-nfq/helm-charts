@@ -1,0 +1,8 @@
+namespace: prod
+
+configmap:
+  data:
+    PLANET: NEPTUNE
+
+
+

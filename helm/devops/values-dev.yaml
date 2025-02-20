@@ -1,0 +1,8 @@
+namespace: dev
+
+configmap:
+  data:
+    PLANET: VENUS
+
+
+

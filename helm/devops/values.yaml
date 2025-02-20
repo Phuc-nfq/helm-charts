@@ -1,0 +1,13 @@
+appName: k8s
+
+namespace: default
+
+configmap:
+  name: k8sconfigmapv1.0
+  data:
+    PLANET: SUN
+
+image:
+  name: thienphuc532266/k8s
+  tag: latest
+
