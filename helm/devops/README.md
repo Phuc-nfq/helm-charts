@@ -2,7 +2,7 @@
 `helm create webapp1`
 
 # Install the first one
-`helm install k8s-release k8s/`
+`helm install devops-release devops/`
 
 # Upgrade after templating
 `helm upgrade k8s-release k8s/ --values k8s/values.yaml` 
